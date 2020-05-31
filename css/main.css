@@ -200,15 +200,164 @@ ul#mainMenu li > a:hover {
 
 #plans {
     padding: 60px 15px;
+    overflow: auto;
+}
+
+.plan-card {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.card-inside > h3, h5, p, ul {
+    margin: 0 0 35px 0;
+}
+
+.card-inside {
+    padding: 40px;
+}
+
+.card-inside ul {
+    font-size: 0.8em;
+}
+
+#cardOne {
+    background-color: #2cffc8;
+    color: #262937;
+}
+
+#cardTwo {
+    background-color: #262937;
+    color: #fff;
+}
+
+#cardTwo h3, #cardTwo h5 {
+    color: #fff;
+}
+
+#cardTwo .normal-btn {
+    background-color: #2cffc8;
+}
+
+#cardThree {
+    background-color: #e1ff19;
+    color: #262937;
+}
+
+#cardThree .normal-btn {
+    background-color: #262937;
+    color: #fff;
+}
+
+.plan-card-last {
+    width: 30%;
+    padding-right: 0;
+    float: right;
+}
+
+.card-one, .card-two, .card-three {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-hover {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.07;
+    transition: all 0.3s;
+}
+
+.bg-hover-one {
+    background-image: url('../img/card-one.jpg');
+}
+
+.bg-hover-two {
+    background-image: url('../img/card-two.jpg');
+}
+
+.bg-hover-three {
+    background-image: url('../img/card-three.jpg');
+}
+
+.card-one:hover .bg-hover-one {
+    display: none;
+}
+
+.card-two:hover .bg-hover-two {
+    display: none;
+}
+
+.card-three:hover .bg-hover-three {
+    display: none;
 }
 
 #newsletterSignup {
     padding: 60px 0;
-    background-color: #e1ff19;
+    background-color: #262937;
+    background-image: url('../img/newsletter-bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    text-align: center;
+}
+
+#newsletterSignup h1, #newsletterSignup h4 {
+    color: #fff;
+}
+
+.newsletter-wrap {
+    padding: 30px 0;
+}
+
+.newsletter-wrap input {
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    margin-right: 20px;
 }
 
 footer {
     background-color: #262937;
     color: #fff;
+    padding: 0 0 0 0;
+}
+
+.footer-first {
     padding: 60px 0 30px 0;
+}
+
+.footer-widget img {
+    width: 70%;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+.footer-widget p {
+    line-height: 1.5em;
+    font-size: 0.8em;
+    color: #a8aec4;
+    margin: 15px 0;
+}
+
+.footer-widget h5 {
+    color: #fff;
+}
+
+.footer-widget p i {
+    color: #e1ff19;
+    margin-right: 10px;
+}
+
+.footer-last {
+    background-color: #1d202b;
+    padding: 30px 0;
+    font-size: 0.8em;
+    color: #a8aec4;
 }
