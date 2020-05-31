@@ -14,10 +14,24 @@ a:hover {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #262937;
+    font-weight: 800;
+}
+
+p {
+    line-height: 2em;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
 nav#mainNav {
     width: 100%;
     background-color: transparent;
     padding: 40px 0;
+    z-index: 9999!important;
 }
 
 #mainNav.scrolled {
@@ -88,6 +102,7 @@ ul#mainMenu li > a:hover {
     align-items: center;
     background-image: url('../img/slider-main.jpg');
     background-size: cover;
+    background-attachment: fixed;
     color: #fff;
 }
 
@@ -95,11 +110,11 @@ ul#mainMenu li > a:hover {
     font-size: 4em;
     font-weight: 800;
     padding: 30px 0;
+    color: #fff;
 }
 
 #slider p {
     width: 50%;
-    line-height: 2em;
 }
 
 #sliderButton {
@@ -111,10 +126,34 @@ ul#mainMenu li > a:hover {
 #contactTop {
     padding: 60px 0;
     background-color: #e1ff19;
+    background-image: url('../img/contact-bg.jpg');
+    background-size: cover;
+}
+
+#contactTop .container {
+    text-align: right;
+}
+
+.contact-top-text {
+    font-weight: 300;
+}
+
+.contact-top-text-second {
+    font-weight: 500;
+    color: #fff;
 }
 
 #content {
     padding: 60px 15px;
+}
+
+#contentImage {
+    text-align: right;
+}
+
+#contentImage img {
+    width: 90%;
+    height: auto;
 }
 
 #explore {
@@ -122,8 +161,41 @@ ul#mainMenu li > a:hover {
     background-color: #262937;
 }
 
+#explore div h2 {
+    text-align: center;
+    color: #fff;
+}
+
 #explore div {
     color: #fff;
+}
+
+#explore div div.row {
+    padding: 70px 0 0 0;
+}
+
+.explore-icon {
+    text-align: center;
+    color: #fff;
+}
+
+.explore-icon h3 {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.explore-icon i {
+    color: #e1ff19;
+}
+
+.explore-icon p {
+    font-size: 0.8em;
+}
+
+.read-more {
+    font-weight: 500;
+    font-size: 0.8em;
+    color: #e1ff19;
 }
 
 #plans {
