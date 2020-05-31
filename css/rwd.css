@@ -1,0 +1,26 @@
+@media (max-width: 991px) {
+    nav#mainNav {
+        background-color: #262937;
+    }
+
+    #btnGetStarted {
+        display: none;
+    }
+
+    #slider h1 {
+        font-size: 2em;
+    }
+
+    #slider p {
+        width: 100%;
+    }
+
+    #content div {
+        padding-bottom: 30px;
+    }
+
+    .plan-card, .plan-card-last {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
