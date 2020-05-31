@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+a, a:visited, a:active {
+    color: #262937;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2cffc8;
+    text-decoration: none;
+}
+
+nav#mainNav {
+    width: 100%;
+    background-color: transparent;
+    padding: 40px 0;
+}
+
+#mainNav.scrolled {
+    background-color: #262937 !important;
+    padding: 25px 0;
+    transition: all 0.4s;
+}
+
+#navbarNavDropdown {
+    flex-direction: row-reverse;
+}
+
+#menuLogo {
+    height: 45px;
+    width: auto;
+}
+
+ul#mainMenu {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+ul#mainMenu li > a, a:visited, a:active {
+    color: #fff;
+}
+
+ul#mainMenu li > a:hover {
+    color: #e1ff19;
+}
+
+.dropdown-menu {
+    background-color: #1d202b;
+}
+
+.dropdown-menu > a, a:visited, a:active {
+    color: #fff;
+}
+
+.dropdown-menu > a:hover {
+    color: #e1ff19;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.dropdown-item {
+    font-size: 0.8em;
+}
+
+#btnGetStarted {
+    margin: 0 0 0 30px;
+}
+
+.normal-btn {
+    background-color: #e1ff19;
+    color: #000;
+    border-radius: 24px;
+    padding: 12px 24px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+#slider {
+    min-height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/slider-main.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+#slider h1 {
+    font-size: 4em;
+    font-weight: 800;
+    padding: 30px 0;
+}
+
+#slider p {
+    width: 50%;
+    line-height: 2em;
+}
+
+#sliderButton {
+    padding: 16px 32px;
+    border-radius: 32px;
+    margin: 30px 0;
+}
+
+#contactTop {
+    padding: 60px 0;
+    background-color: #e1ff19;
+}
+
+#content {
+    padding: 60px 15px;
+}
+
+#explore {
+    padding: 60px 0;
+    background-color: #262937;
+}
+
+#explore div {
+    color: #fff;
+}
+
+#plans {
+    padding: 60px 15px;
+}
+
+#newsletterSignup {
+    padding: 60px 0;
+    background-color: #e1ff19;
+}
+
+footer {
+    background-color: #262937;
+    color: #fff;
+    padding: 60px 0 30px 0;
+}
