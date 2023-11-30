@@ -18,9 +18,57 @@
     #content div {
         padding-bottom: 30px;
     }
+}
 
-    .plan-card, .plan-card-last {
+@media (max-width: 767px) {
+    nav#mainNav {
+        padding: 3vh 5vw;
+    }
+
+    #mainNav.scrolled {
+        padding: 3vh 5vw;
+    }
+
+    #mainMenu {
+        margin: 3vh 0 0 0;
+    }
+
+    #slider .container {
+        position: absolute;
+        bottom: 10vh;
+    }
+    
+    #plans {
+        display: block;
+        padding: 0 3vw;
+    }
+
+    .plan-card,
+    .plan-card-last {
         width: 100%;
-        margin: 0 0 20px 0;
+        margin: 3vh 0 0 0;
+    }
+
+    .card-one, .card-two, .card-three {
+        overflow: auto;
+    }
+
+    .newsletter-wrap input {
+        width: 50vw;
+        margin-right: 5px;
+    }
+
+    footer .footer-first {
+        padding: 5vh 5vw;
+    }
+
+    .footer-widget img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-widget img {
+        width: 30%;
     }
 }
