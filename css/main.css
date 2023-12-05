@@ -9,6 +9,7 @@ html, body {
 .container {
     width: auto;
     min-width: 95%;
+    max-width: 1920px;
 }
 
 a, a:visited, a:active {
